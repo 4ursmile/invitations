@@ -610,7 +610,7 @@ body {
 .footer {
     text-align: center;
     margin-top: 15px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     opacity: 0;
     animation: fadeInUp 1s ease 2s forwards;
 }
