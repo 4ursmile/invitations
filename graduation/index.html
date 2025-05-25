@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation Ceremony Invitation - BaoLy</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="floating-shapes">
+        <!-- 3D Cube -->
+        <div class="shape">
+            <div class="shape-3d cube">
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+            </div>
+        </div>
+        <div class="shape">
+            <div class="shape-3d pyramid">
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+                <div class="face"></div>
+            </div>
+        </div>
+           <!-- 3D Sphere -->
+        <div class="shape">
+            <div class="sphere"></div>
+        </div>
+
+        
+
+    </div>
+
+    <div class="container">
+        <div class="invitation-card" id="invitationCard">
+            <div class="decorative-border"></div>
+            
+            <div class="invite-text">You are invited to</div>
+            
+            <h1 class="graduation-title">Graduation Ceremony</h1>
+            <h2 class="party-text">2025
+            </h2>
+            
+            <div class="graduation-icon" onclick="celebrateClick(this)">
+                <div class="cap">
+                    <div class="tassel"></div>
+                </div>
+                <div class="diploma"></div>
+            </div>
+            
+            <div class="class-year">Tran Hoang Bao Ly</div>
+            
+            <div class="event-details">
+                <div class="datetime" onclick="addToCalendar()">
+                    📅 08 . Jun . 2025 . at 8:00am
+                </div>
+                
+                <div class="school-name">
+                    University of Information Technology - VNUHCM
+                </div>
+                
+                <div class="address" onclick="openMaps()">
+                    📍 Quarter 6, Linh Trung Ward, Thu Duc City, Ho Chi Minh City.
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-save-date" onclick="addToCalendar()">
+                    ⭐ Save the Date
+                </button>
+                <!-- <button class="btn btn-save-image" onclick="saveAsImage()">
+                    📷 Save as Image
+                </button> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
