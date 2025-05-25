@@ -606,3 +606,46 @@ body {
         align-items: center;
     }
 }
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    opacity: 0;
+    animation: fadeInUp 1s ease 2s forwards;
+}
+
+.footer-text {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff69b4;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-5px) scale(1.1);
+    background: rgba(255, 105, 180, 0.3);
+    color: white;
+}
